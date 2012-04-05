@@ -1,0 +1,19 @@
+GIT
+  remote: git://github.com/gorsuch/redis-rb
+  revision: 9c8ee97d8b6e8f1c7fc42df63d93e4476e34a462
+  ref: 9c8ee97d8b6e8f1c7fc42df63d93e4476e34a462
+  specs:
+    redis (3.0.0.rc1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    redis-connection-universal (0.0.1)
+      redis
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  redis!
+  redis-connection-universal (= 0.0.1)
