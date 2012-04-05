@@ -6,4 +6,8 @@ redis instances in cleartext or over SSL.
 Please note the Gemfile, as this example relies on a pending pull
 request against redis-rb + a new universal connection gem.
 
-Feedback appreciated: michael.gorsuch@gmail.com
+Execute:
+
+```shell
+bundle exec ruby example.rb
+```
